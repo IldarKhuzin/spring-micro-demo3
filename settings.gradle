@@ -4,3 +4,5 @@ includeBuild('eureka-server')
 includeBuild('eureka-client')
 includeBuild('api-gateway')
 includeBuild('client2')
+includeBuild('github-config-server')
+

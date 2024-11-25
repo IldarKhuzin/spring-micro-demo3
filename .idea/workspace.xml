@@ -4,21 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d0fe12e-6477-42c1-82d8-b2eec002e78a" name="Changes" comment="server+client+api-gateway">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/ru/javabegin/micro/demo/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/ru/javabegin/micro/demo/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+    <list default="true" id="8d0fe12e-6477-42c1-82d8-b2eec002e78a" name="Changes" comment="server+client+api-gateway+few clients on real ports">
+      <change afterPath="$PROJECT_DIR$/github-config-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/main/java/ru/javabegin/micro/demo/githubconfigserver/GithubConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/test/java/ru/javabegin/micro/demo/githubconfigserver/GithubConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/client2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/src/main/java/ru/javabegin/client2/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client2/src/main/java/ru/javabegin/client2/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +35,16 @@
     <projectState path="$PROJECT_DIR$/api-gateway">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/client2">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/eureka-client">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/github-config-server">
       <ProjectState />
     </projectState>
   </component>
@@ -44,7 +53,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-micro-demo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -84,13 +98,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2pJO4zZFjVBWLU38SyULJ8qeTLZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -99,19 +116,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "jdk.selected.JAVA_MODULE": "23",
     "last_opened_file_path": "/home/ildar/IdeaProjects/spring-micro-demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "spring.configuration.checksum": "5f25aacb477311903643fad549d268b6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -127,7 +147,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Client2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.client2.Client2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst2 " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient.EurekaClientApplication" />
       <method v="2">
@@ -137,6 +178,13 @@
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.vicro.demo.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="github-config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.githubconfigserver.GithubConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +201,7 @@
       <workItem from="1732480527574" duration="1456000" />
       <workItem from="1732520978172" duration="9223000" />
       <workItem from="1732532192423" duration="3484000" />
+      <workItem from="1732547382279" duration="12089000" />
     </task>
     <task id="LOCAL-00001" summary="server+client">
       <option name="closed" value="true" />
@@ -194,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732540024426</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="server+client+api-gateway">
+      <option name="closed" value="true" />
+      <created>1732549483054</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732549483054</updated>
+    </task>
+    <task id="LOCAL-00007" summary="server+client+api-gateway+few clients on real ports">
+      <option name="closed" value="true" />
+      <created>1732552324176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732552324176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,8 +277,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="server+client" />
     <MESSAGE value="server+client+api-gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="server+client+api-gateway" />
+    <MESSAGE value="server+client+api-gateway+few clients on real ports" />
+    <option name="LAST_COMMIT_MESSAGE" value="server+client+api-gateway+few clients on real ports" />
   </component>
 </project>
