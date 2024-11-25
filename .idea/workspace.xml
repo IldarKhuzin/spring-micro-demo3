@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d0fe12e-6477-42c1-82d8-b2eec002e78a" name="Changes" comment="server+client+api-gateway">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/ru/javabegin/micro/demo/eurekaclient/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/javabegin/micro/demo/eurekaclient/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/ru/javabegin/micro/demo/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/ru/javabegin/micro/demo/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +152,7 @@
       <updated>1732480526556</updated>
       <workItem from="1732480527574" duration="1456000" />
       <workItem from="1732520978172" duration="9223000" />
-      <workItem from="1732532192423" duration="2864000" />
+      <workItem from="1732532192423" duration="3484000" />
     </task>
     <task id="LOCAL-00001" summary="server+client">
       <option name="closed" value="true" />
@@ -178,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732535950410</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="server+client+api-gateway">
+      <option name="closed" value="true" />
+      <created>1732540024426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732540024426</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
